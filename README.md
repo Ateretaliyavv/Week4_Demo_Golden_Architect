@@ -1,9 +1,3 @@
-Understood. You want the Hebrew description of your construction game, "Golden Architect," translated into English, maintaining the formatting and style of the "Who Stole My Cheese?" demo (with headers and emojis) for a professional README file.
-
-Here is the English translation:
-
----
-
 ## 🏛️ Demo: The Golden Architect
 
 A structure-building simulation based on a target image, with limited costs.
@@ -34,3 +28,5 @@ To successfully **pass the level**, the player must achieve a total score of **o
     * The initial budget and location are displayed on the left side.
     * The **Total Cost** (how much budget has been used so far) is displayed in the top-left corner.
 * **Completion and Check:** To finish the level and proceed to the score check, click the **"Finish Building"** button.
+
+Link for itch.io - https://ateretaliya.itch.io/ex4-golden-architect

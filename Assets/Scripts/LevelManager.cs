@@ -112,7 +112,8 @@ public class LevelManager : MonoBehaviour
     {
         int finalScore = CalculateScore();
         currentScore = finalScore;
-        UpdateUI(); 
+        UpdateUI();
+
         if (endPanel != null)
             endPanel.SetActive(true);
 

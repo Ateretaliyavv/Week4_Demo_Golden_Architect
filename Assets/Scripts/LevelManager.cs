@@ -22,7 +22,7 @@ public class LevelManager : MonoBehaviour
     // Budget tracking is moved to ResourceController, but we keep the UI updates here
     [HideInInspector] public int currentBudget;
     [HideInInspector] public int totalCost = 0;
-    public int startBudget = 1000; 
+    public int startBudget = 1000;
 
     [Header("Gameplay Flags")]
     public int wallCount = 0;          // How many walls the player created
@@ -82,7 +82,6 @@ public class LevelManager : MonoBehaviour
             Debug.Log("Penalty: No concrete floor (-30)");
         }
 
-        
         if (!hammerUsed)
         {
             score -= 20;
@@ -114,7 +113,6 @@ public class LevelManager : MonoBehaviour
         int finalScore = CalculateScore();
         currentScore = finalScore;
         UpdateUI(); 
-
         if (endPanel != null)
             endPanel.SetActive(true);
 

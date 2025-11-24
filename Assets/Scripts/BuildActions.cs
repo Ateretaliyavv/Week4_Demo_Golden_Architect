@@ -67,7 +67,7 @@ public class BuildActions : MonoBehaviour
         pos.z = 0f;
 
         Instantiate(wallPrefab, pos, Quaternion.identity);
-        LevelManager.Instance.wallCount++; 
+        LevelManager.Instance.wallCount++;
     }
 
     public void SpawnDoor()
@@ -87,7 +87,7 @@ public class BuildActions : MonoBehaviour
         pos.z = 0f;
 
         Instantiate(doorPrefab, pos, Quaternion.identity);
-        LevelManager.Instance.doorPlaced = true; 
+        LevelManager.Instance.doorPlaced = true;
     }
 
     public void SpawnRoof()
